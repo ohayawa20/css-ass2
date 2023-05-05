@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: black;
+    font-size: 3rem;
+    padding-left: 6em;
+    line-height: 100px;
+    display: inline;
+}
+
+.logo:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+nav{
+    background-color: white;
+    height: 12vh;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10em;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 55px;
+    color: blue;
+}
+
+Li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(picture/ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(11, 233, 166);
+}
+#container{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-child{
+    background-color: red;
+    height: 80vh;
+    width: 35vw;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.profile-picture{
+    position: relative;
+    top: 20px;
+    border-radius: 50%;
+}
